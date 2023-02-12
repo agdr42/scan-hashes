@@ -4,6 +4,19 @@
 
 ## Este script verifica si hay algún hash en un documento y lo oculta de manera automatizada.
 
+# Instaración y Ejecución
+```
+# Instalando requisitos
+$ sudo apt-get update
+$ sudo apt-get install python3
+
+# Creando el archivo
+$ touch scan_hashes.py
+
+# Ejecutar el escript cambiando "filename = 'document.txt'" para sobreescribir el archivo
+$ python3 scan_hashes.py
+```
+
 ```
 import re
 
