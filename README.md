@@ -17,6 +17,7 @@ $ touch scan_hashes.py
 $ python3 scan_hashes.py
 ```
 
+# Codigo
 ```
 import re
 
